@@ -11,8 +11,8 @@ body {
 }
 
 .calculadora {
-  width: 22rem;
-  height: 25rem;
+  width: 24rem;
+  height: 29rem;
   border: 0px solid;
   border-radius: 15px;
   display: flex;
@@ -21,18 +21,23 @@ body {
   background-color: #088A85;
 }
 .calculadora .visor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 85%;
-  height: 50px;
+  height: 5rem;
   margin: 3rem 0 2rem 0;
   background-color: #FFF;
   border-radius: 15px;
   border: 1px solid gray;
+  font-size: 3rem;
 }
 .calculadora tr td {
   padding: 1rem 2rem;
   background: linear-gradient(180deg, #e4e4e4, white);
   border-radius: 10px;
   border: 1px solid gray;
+  font-size: x-large;
 }
 .calculadora tr td:hover {
   cursor: pointer;
