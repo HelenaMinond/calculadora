@@ -1,3 +1,5 @@
+let operacion = "";
+
 //Variables botones numericos conectados con HTML
 const boton1 = document.getElementById("boton1");
 const boton2 = document.getElementById("boton2");
@@ -114,6 +116,7 @@ const results = function() {
 */
 
 //    Opcion2
+/*
 const results = function() {
     const ress = +visorContenido + Number(visor[0].textContent);
     visor[0].textContent = ress;
@@ -133,6 +136,7 @@ const resultd = function() {
     const resd = +visorContenido / Number(visor[0].textContent);
     visor[0].textContent = resd;
 }
+*/
 
 /*  Opcion3
 const result = function() {
@@ -149,7 +153,7 @@ const result = function() {
 }
 */
 
-/*  Opcion4
+//  Opcion4
 const result = function() {
     const res;
     switch (operacion){
@@ -171,7 +175,6 @@ const result = function() {
     }
     visor[0].textContent = res;
 }
-*/
 
 // --------------------------------------------------------------------
 
