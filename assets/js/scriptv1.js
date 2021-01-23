@@ -108,14 +108,13 @@ division.addEventListener("click", operar);
 // -Ingresar otro número
 // -Sume, reste, multiplique y divida (respectivamente) al contenido de visorContenido
 
-/*   Opcion 1
-const results = function() {
-    const ress = +visorContenido + Number(visor[0].textContent);
-    visor[0].textContent = ress;
+//   Opcion 1
+const result = function() {
+    const res = +visorContenido + Number(visor[0].textContent);
+    visor[0].textContent = res;
 }
-*/
 
-//    Opcion2
+//   Opcion2
 /*
 const results = function() {
     const ress = +visorContenido + Number(visor[0].textContent);
@@ -154,6 +153,7 @@ const result = function() {
 */
 
 //  Opcion4
+/*
 const result = function() {
     const res;
     switch (operacion){
@@ -175,6 +175,7 @@ const result = function() {
     }
     visor[0].textContent = res;
 }
+*/
 
 // --------------------------------------------------------------------
 
@@ -182,9 +183,10 @@ const result = function() {
 //*La función es llamada o invocada
 
 // Opcion1
-//resultado.addEventListener("click", result);
+resultado.addEventListener("click", result);
 
 //Opcion2
+/*
 resultado.addEventListener("click", function(){
     
     if (results) {
@@ -195,6 +197,7 @@ resultado.addEventListener("click", function(){
         resultr();
     }
 })
+*/
 
 
 
